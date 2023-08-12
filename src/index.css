@@ -1,0 +1,42 @@
+:root {
+  font-family: Roboto Mono, Roboto , sans-serif;
+  color-scheme: light dark;
+  color: white;
+  background-color: black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: grid;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif ;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Roboto Mono', sans-serif ;
+  line-height: 0.1;
+}
+
+
+p {
+  font-size: 0.7em;
+  font-family: 'Roboto Mono', sans-serif ;
+  line-height: 0.1;
+}
+
+.header {
+  background-size: cover; 
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
