@@ -1,4 +1,6 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
+
 
 function Intro() {
   return (
@@ -7,8 +9,10 @@ function Intro() {
         <h2> 
 an polished approach to reduce pollution from our planet</h2>
         <div className='search-box'>
-            <p>search here</p>
-            <ion-icon ></ion-icon>
+            <input type='text' className='search-text'></input>
+            <div>
+            <Icon icon="ion:search" color="white" style={{transform:"rotate(90deg)"}} />
+            </div>
         </div>
     </div>
   )
