@@ -188,3 +188,83 @@ p {
   text-align: center;
 }
 
+/* Levels css  */
+
+.header4 {
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.lvl-head{
+  font-family: 'Roboto Mono', sans-serif ;
+}
+.lvl-desc{
+  justify-self: center;
+  margin: 0% 20%;
+  margin-top: 8%;
+  text-align: center;
+  font-weight: 100;
+}
+.lvl-txt{
+  margin: 0% 2%;
+  font-weight: 100;
+  z-index: -1;
+}
+.control-box{
+  background-color: black;
+  border-radius: 20px;
+  z-index: 2;
+  /* transform: translateY(70%); */
+  position:absolute;
+  width: 15%;
+  transform: translateX(10%);
+}
+
+.control-box.active{
+  background-color: transparent;
+  color: white;
+  border: 2px solid black;
+  backdrop-filter: blur(20px);
+}
+
+.control-box:hover{
+  border: #fff solid 2px;
+  cursor: pointer;
+}
+
+.lvl-box{
+  border: 1.5px solid black;
+  border-radius: 20px;
+  margin: 3% 18%;
+  height: auto;
+  z-index: -2;
+  background: rgba(180, 180, 180, 0.25);
+  /* backdrop-filter: blur(5px); */
+}
+
+.lvl-box.active{
+  border: 0px;
+  background-color: black;
+}
+
+
+.level-box{
+  width: 40%;
+  margin-right: 20%;
+}
+
+.lvl-box[elongate='1'] {
+  animation: elongate 1.2s 1;
+}
+
+@keyframes elongate {
+  0% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
+}
