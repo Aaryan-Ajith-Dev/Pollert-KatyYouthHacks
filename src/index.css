@@ -162,3 +162,29 @@ p {
   width: 40%;
   background-color: white;
 }
+
+.navbar {
+  background-color: #fff;
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  position:absolute;
+  padding: 10px 10%; 
+  width: 80%;
+} 
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 10%;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
