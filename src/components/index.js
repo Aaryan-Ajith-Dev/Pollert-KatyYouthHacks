@@ -8,9 +8,11 @@ import Level3 from "./Level3";
 import Level4 from "./Level4";
 import Level5 from "./Level5";
 import Level6 from "./Level6";
+import Navbar from "./Navbar";
+
 
 export{
-    Intro,Intropg2,
+    Navbar,Intro,Intropg2,
     About,Donate,
     Level1,Level2,Level3,Level4,Level5,Level6,
 }
