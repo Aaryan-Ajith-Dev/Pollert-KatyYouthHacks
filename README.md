@@ -34,13 +34,19 @@ On clicking the “What we serve” button, our contribution to sustainability c
 
 ### Search bar
 
-On writing your city name, the corresponding AQI data of your city is shown just below the search bar. 
+On writing your city name, the corresponding AQI data of your city is shown just below the search bar.<br>
 Based on that, you can visit the levels tab of our home page, & then click on a particular level based on your AQI
 
 ### Levels
 
-Clicking on any of the 6 levels takes you to a separate web page wherein you are shown recommended actions to take at that level.
-Clicking on Recommended actions gives way for the “Health impact” info using a clean & satisfying animation.
+Clicking on any of the 6 levels takes you to a separate web page wherein you are shown recommended actions to take at that level.<br>
+Clicking on Recommended actions gives way to the “Health impact” info using a clean & satisfying animation.
+
+### Donations using Razorpay
+
+You would be able to make donations that help support our mission of reducing air pollution.<br>
+We would use the payments to plant more trees in your name & remove ocean waste using the donated money.<br>
+The donations are collected in a seamless manner using the Razorpay API
 
 ## Contributors
 
