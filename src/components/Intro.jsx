@@ -10,7 +10,7 @@ function Intro() {
   let to = '';
   let state = null;
   if (aqi === null) {
-    state = 'error'
+    state = null
   }
   else if (aqi <= 50) {
     to = '/level-1';
