@@ -1,6 +1,5 @@
 import About from "./About";
 import Donate from "./Donate";
-import Donate2 from "./Donate-btn";
 import Intro from "./Intro";
 import Intropg2 from "./Intropg2";
 import Level1 from "./Level1";
@@ -13,6 +12,6 @@ import Navbar from "./Navbar";
 
 export{
     Navbar,Intro,Intropg2,
-    About,Donate,Donate2,
+    About,Donate,
     Level1,Level2,Level3,Level4,Level5,Level6,
 }
