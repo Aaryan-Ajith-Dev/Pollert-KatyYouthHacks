@@ -2,7 +2,7 @@ import React from 'react';
 
 function Donate() {
   return (
-    <div className="header3">
+    <div id="Donate" className="header3">
       <h1 className='heading2'>Donate</h1>
       <p style={{ width: "32%", fontSize: "1em", lineHeight: "1.2" }}>Your part matters</p>
       <div className='donate-pos'>
