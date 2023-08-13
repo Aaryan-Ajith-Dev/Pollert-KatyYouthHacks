@@ -18,7 +18,7 @@ function Intro() {
   }
   else if (aqi <= 100) {
     to = '/level-2';
-    state = 'Ok'    
+    state = 'Moderate'    
   }
   else if (aqi <= 150) {
     to = '/level-3';
