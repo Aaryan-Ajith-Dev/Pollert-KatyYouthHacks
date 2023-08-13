@@ -15,16 +15,12 @@ This will start the project on [http://localhost:5173](http://localhost:5173/)
 
 - html
 - css
-- express
-- MongoDB (mongoose)
-- cors
 - framer-motion
 - github
 - javascript
 - jsx
-- mongodb
 - react
-- tailwind
+  
 
 ## Important components of our website
 
