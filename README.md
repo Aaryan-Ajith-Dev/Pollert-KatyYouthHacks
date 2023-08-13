@@ -1,12 +1,12 @@
 # Polert-KatyYouthHacks
-Polert (derived from pollution & alert) is a cautionary website that tells you about your city’s air pollution level (using AQI data) and also informs you the actions you need to take based on the pollution level in your area.
+Polert (derived from Pollution & Alert) is an exemplary website that tells you about your city’s air pollution level (using AQI data) and also informs you of the actions you need to take based on the pollution level in your area.
 
 ## Installation
 
 On your terminal clone the git-repo and run these commands
 
 1. npm install
-2. npm run build
+2. npm install react-router-dom framer-motion @iconify/react
 3. npm run dev
 
 This will start the project on [http://localhost:5173](http://localhost:5173/)
