@@ -9,7 +9,7 @@ function About() {
     setIsAboutPageOpen(true);
   };
   return (
-    <div className="header" style={{backgroundImage: `url(${skybg})`, color:"black"}}>
+    <div id="About" className="header" style={{backgroundImage: `url(${skybg})`, color:"black"}}>
       <h1 className='heading'>About Us</h1>
       <p style={{width:"32%", fontSize:"1em",lineHeight:"1.2"}}>At Pollert, we envision a world where clean air is a fundamental right, and where people are educated and equipped to tackle pollution head-on. We strive to be the go-to platform for reliable pollution level data, actionable tips, and meaningful initiatives that drive<br/> positive change.</p>
       <div className='about-box' onClick={handleAboutClick}>What we serve      </div>
