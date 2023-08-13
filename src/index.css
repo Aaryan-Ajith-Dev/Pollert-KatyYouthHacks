@@ -169,8 +169,9 @@ p {
   -webkit-background-clip: text; 
   color: transparent; 
   position:absolute;
-  padding: 10px 10%; 
+  padding: 10px 11%; 
   width: 80%;
+  font-size: 0.8em;
 } 
 
 .nav-items {
@@ -183,6 +184,7 @@ p {
   border: 1px solid white;
   border-radius: 10px;
   width: 10%;
+  padding: 5px 0%;
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -268,9 +270,9 @@ p {
     color: yellow;
   }
 }
-/* Added part */
 
-/* The dropdown container */
+
+/* The dropdown container -------------------------------------- */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -284,34 +286,30 @@ p {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: white;
+  font-size: 2em;
+  border: white;  
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 5px 11%; 
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
+  font-family: inherit; 
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
-/* .navbar a:hover, .dropdown:hover .dropbtn {
-  
-} */
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(0,0,0,0.25);
-  min-width: 160px;
-  text-decoration-color: 
+  background-color: rgba(0,0,0,0.45);
+  min-width: 10%;
+  font-size: 1.8em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+a {
   float: none;
   color: white;
   padding: 12px 16px;

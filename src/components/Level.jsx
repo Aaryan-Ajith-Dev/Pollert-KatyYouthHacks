@@ -1,15 +1,25 @@
 import { Level1,Level2,Level3,Level4,Level5,Level6 } from './index'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import { motion } from 'framer-motion';
 
 export default function Level({name}){
     const [show,setShow]=useState(false);
+    const [showAlternateContent] = useState(false);
+    const containerVariants = {
+        hidden: { height: '0'  },
+        visible: { height: 'auto', transition: { duration: 0.5 } },
+      };
     return (
-        <div className="dropdown">
+        <div className="dropdown" style={{fontSize:"0.5em"}}>
             <button className='dropbtn' onClick={()=>setShow((prev)=>!prev)}
             >{name}</button>
             {show &&
-            <div className="dropdown-content">
+            <motion.div className="dropdown-content" 
+            variants={containerVariants} 
+            key={showAlternateContent ? 'health' : 'recommended'}
+            initial= {"hidden"} 
+            animate={"visible"}>
                     <Link to='/level-1'>
                      Good
                     </Link>
@@ -19,7 +29,8 @@ export default function Level({name}){
                     </Link>
 
                     <Link to='/level-3'>
-                    Unhealthy for Sensitive Groups
+                    Unhealthy for 
+                    SG
                     </Link>
 
                     <Link to='/level-4'>
@@ -35,7 +46,7 @@ export default function Level({name}){
                     <Link to='/level-6'>
                     Hazardous
                     </Link>
-            </div>
+            </motion.div>
             }
         </div>
 
