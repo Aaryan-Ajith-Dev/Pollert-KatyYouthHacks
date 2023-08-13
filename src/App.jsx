@@ -15,6 +15,8 @@ function App(){
                 <Route path='/level-5' element={<Level5 />} />
                 <Route path='/level-4' element={<Level4 />} />
                 <Route path='/level-6' element={<Level6 />} />
+                <Route path='/About' element={<About />} />
+                <Route path='/Donate' element={<Donate />} />
             </Routes>
         </>
     )    

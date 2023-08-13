@@ -151,23 +151,26 @@ p {
 }
 
 .donate-pos{
-  transform: translateY(50%);
+  transform: translate(5%,50%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.donate-box{
-  height: 40vh;
-  width: 40%;
-  background-color: white;
+.donate{
+  transform: translate(20%,-10%);
+}
+
+
+.donate img:hover{
+  opacity: 75%;
 }
 
 .navbar {
   background-color: #fff;
   background-clip: text; 
   -webkit-background-clip: text; 
-  color: transparent; 
+  color: transparent;
   position:absolute;
   padding: 10px 11%; 
   width: 80%;
