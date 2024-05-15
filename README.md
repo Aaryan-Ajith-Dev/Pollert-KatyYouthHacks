@@ -50,6 +50,6 @@ The donations are collected in a seamless manner using the Razorpay API
 
 ## Contributors
 
-* [GoldJain](https://github.com/SiddharthPalod)
-* [Aaryan Dev](https://github.com/Aaryan-Ajith-Dev)
+* [GoldJain](https://github.com/SiddharthPalod) (Front-End)
+* [Aaryan Dev](https://github.com/Aaryan-Ajith-Dev) (API Integration)
 * [Shashank Devarmani](https://github.com/standing-on-giants)
